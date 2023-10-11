@@ -1,7 +1,9 @@
 # quiz_questions
 
 1. Клонирование проекта: git clone https://github.com/OlzhasKALIEV/quiz_questions.git
-2. Поднять сервер: docker-compose up
+2. Создаем ВО: python -m venv venv
+3. Запуск ВО: .\venv\Scripts\activate
+4. Поднять сервер: docker-compose up
 
 для входа в pgAdmin перейти по http://localhost:8080/browser/
 
