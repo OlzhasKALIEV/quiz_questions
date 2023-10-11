@@ -11,17 +11,23 @@
     логин: admin@example.com
     пароль: admin
 
+![img.png](media/img_7.png)
+
 2. Регистрация сервера: 
 
 Register - Server
 заполняем данные
 General - Name - <любое имя>
 
+![img.png](media/img_5.png)
+
 Имя/адрес сервера: db-container
 Порт: 5432
 Служебная база данных: postgres
 Имя пользователя: postgres
 Пароль: 12345
+
+![img_1.png](media/img_6.png)
 
 Далее "Сохронить" или "Save"
 
