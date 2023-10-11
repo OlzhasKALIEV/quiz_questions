@@ -4,14 +4,13 @@ import requests
 from model import db, Question
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:12345@db:5432/quizquestions"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:12345@db:5432/quiz_questions"
 db.init_app(app)
 
 
 def create_questions_table():
     with app.app_context():
         db.create_all()
-        db.session.commit()
 
 
 def get_unique_question():
